@@ -1,8 +1,11 @@
-
+body {
+    background: url(../images/cloudy-day.png);
+    font-family: 'Righteous', cursive;
+}
 
 .input-group {
     width: 300px;
-    margin-left:10px;
+    margin-left:50px;
     margin-right: 30px;
     display: flex;
     flex-direction: column;
@@ -14,6 +17,13 @@
 
 .jumbotron {
     height: 200px;
+    background: url(../images/canadian-dollar.png);
+    background-size: 30% 90%;
+    font-family: 'Modak', cursive;
+}
+
+.lead {
+    font-family: 'Righteous', cursive;
 }
 
 .list-group-item:hover {
@@ -28,4 +38,15 @@
 
 .this-gif:hover {
     cursor: pointer;
+}
+
+.gif-container {
+    margin-left: 15%;
+}
+
+@media only screen and (max-width: 640px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
