@@ -23,5 +23,9 @@
 
 .main-container {
     display: flex;
-    align-items: flex-start
+    align-items: flex-start;
+}
+
+.this-gif:hover {
+    cursor: pointer;
 }
