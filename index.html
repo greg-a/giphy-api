@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Giphy Search</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+
+        <div class="container text-center">
+          <h1 class="display-6">GIF Search</h1>
+          <p class="lead">Create your own collection of GIFs!</p>
+        </div>
+      </div>
+
+    <div class="main-container">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add</button>
+              <button class="btn btn-outline-danger" type="button" id="button-addon3">Clear</button>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">Bojack Horseman</li>
+                <li class="list-group-item">Breaking Bad</li>
+                <li class="list-group-item">Burn After Reading</li>
+                <li class="list-group-item">The Office</li>
+              </ul>
+        </div>
+        <div class="gif-container"></div>
+
+    </div>
+    
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
