@@ -26,23 +26,94 @@ body {
     font-family: 'Righteous', cursive;
 }
 
-.list-group-item:hover {
-    cursor: pointer;
-    background-color: rgb(24, 69, 192);
-}
-
 .main-container {
     display: flex;
     align-items: flex-start;
 }
 
-.this-gif:hover {
-    cursor: pointer;
+.gif-container {
+    margin-left: 5px;
+    width: 400px;
 }
 
-.gif-container {
-    margin-left: 15%;
+.gif-div {
+    display: flex;
+    flex-direction: column;
 }
+
+.under-gif {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(128, 202, 226);
+}
+
+.under {
+    width: 100px;
+    margin-bottom: 0;
+}
+
+.rating {
+    width: 350px;
+    padding-left: 10px;
+}
+
+.display-6 {
+    padding-top: 6px;
+    margin-bottom: 1px;
+}
+
+#form-id {
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+#x-button {
+    position: absolute;
+    top: -1px;
+    padding: 3px;
+    width: 17px;
+    right: -1px;
+    height:25px;
+    padding-top: 0;
+}
+
+#button-addon2 {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+#button-addon3 {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.fav-button, .del-button {
+    text-align: center;
+    height: 23px;
+}
+
+#x-button:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.fav-button:hover, .del-button:hover {
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+
+.list-group-item:hover {
+    cursor: pointer;
+    background-color: rgb(24, 69, 192);
+    opacity: 0.85;
+}
+
+.this-gif:hover {
+    cursor: pointer;
+    opacity: 0.7;
+} 
 
 @media only screen and (max-width: 640px) {
     .main-container {
