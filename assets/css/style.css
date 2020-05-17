@@ -36,9 +36,19 @@ body {
     width: 400px;
 }
 
+.fav-gifs {
+    margin-left: 5px;
+    width: 400px;
+}
+
 .gif-div {
     display: flex;
     flex-direction: column;
+    z-index: 2;
+}
+
+.fav-gifs {
+    margin-left: 10px;
 }
 
 .under-gif {
@@ -53,6 +63,15 @@ body {
 .under {
     width: 100px;
     margin-bottom: 0;
+}
+
+.li-span {
+    width: 280px;
+    height:50px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .rating {
