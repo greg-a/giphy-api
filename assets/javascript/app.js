@@ -22,7 +22,7 @@ $(document).on("click", ".li-span", function (event) {
 
     var searchName = this.dataset.name;
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchName + "&limit=10&api_key=5v4rQS10XtSYgP0Dv4jnobu5HtcEQDWA";
-    console.log(queryURL);
+    
     $.ajax({
         url: queryURL,
         method: "GET"
@@ -77,7 +77,6 @@ $(document).on("click", ".del-button", function (event) {
             $("#" + used[i].id).remove();
         }
     }
-    console.log($(this).attr("data-delete"))
 })
 
 $(document).on("click", ".this-gif", function (event) {
